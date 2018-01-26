@@ -1,33 +1,1060 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<title>Will you Come with me..</title>
-	</head>
-	<body>
-		
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Will You Come Along With Me?!</h1>
-			<img src="head.jpg"/>
-			<p>Heres my honest try <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:nikhil.wayal007@gmail.com">email</a></li>
-        		<li><a href="https://github.com/skylabspune">Hear's my Honest Contribution to OpenSource Community :)</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+<html lang='en'>
+<head>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="7uWxFKROZ1B27PW+ORgFvDqXXJQqNZuFwn11vTBt+Nbkf0vCAl7IqXFlMZVqp2Tm1WMBEXlm/qOLxMdIjI01Zw==" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"475d470573","applicationID":"109994783","transactionName":"dVYNRhAKXFUARU5EVlNUEB0RDV9O","queueTime":0,"applicationTime":73,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<title>Will You Come Along With Me?, by James Clerk Maxwell | Poeticous: poems, essays, and short stories</title>
+<meta name="description" content="Will you come along with me,
+In the fresh spring-tide,
+My comforter to be
+Through the world so wide?
+Will you come and learn the ways" />
+<meta itemprop="name" content="Will You Come Along With Me?, by James Clerk Maxwell | Poeticous" />
+<meta itemprop="description" content="Will you come along with me,
+In the fresh spring-tide,
+My comforter to be
+Through the world so wide?
+Will you come and learn the ways" />
+<meta itemprop="image" content="https://www.poeticous.com/system/poems/cover_photos/000/013/549/original/spring-tide.jpg?1451111147" />
+<meta property="og:image" content="https://www.poeticous.com/system/poems/cover_photos/000/013/549/original/spring-tide.jpg?1451111147" />
+<meta itemprop="url" content="https://www.poeticous.com/james-clerk-maxwell/will-you-come-along-with-me" />
+<meta itemprop="genre" content="creativework" />
+<meta itemprop="creator" content="Poeticous" />
+<meta itemprop="provider" content="Poeticous" />
+<meta itemprop="publisher" content="Poeticous" />
+<meta itemprop="sourceOrganization" content="Poeticous" />
+<meta itemprop="author" content="James Clerk Maxwell" />
+<meta itemprop="inLanguage" content="en" />
+<meta itemprop="dateModified" content="2015-12-26 06:25:49 UTC" />
+<meta itemprop="datePublished" content="2012-06-29 22:08:22 UTC" />
+<meta itemprop="discussionUrl" content="https://www.poeticous.com/james-clerk-maxwell/will-you-come-along-with-me" />
+<meta itemprop="interactionCount" content="UserComments:0" />
+<meta itemprop="interactivityType" content="mixed" />
+<meta itemprop="isFamilyFriendly" content="true" />
+<meta itemprop="keywords" content="Will, You, Come, Along, With, Me?, James, Clerk, Maxwell, poem, poet, poetry, literature, poems, poets, poema, poeta, poesía, literatura, poemas, poetas" />
+<meta itemprop="typicalAgeRange" content="9-" />
+<meta itemprop="version" content="1" />
+<meta property="og:description" content="Will you come along with me,
+In the fresh spring-tide,
+My comforter to be
+Through the world so wide?
+Will you come and learn the ways" />
+<meta property="og:title" content="Will You Come Along With Me?, by James Clerk Maxwell" />
+<meta property="og:url" content="https://www.poeticous.com/james-clerk-maxwell/will-you-come-along-with-me" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Poeticous" />
+<meta property="fb:admins" content="4813285" />
+<meta property="fb:app_id" content="470213143065140" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="alternate" hreflang="es" href="https://www.poeticous.com/james-clerk-maxwell/will-you-come-along-with-me?locale=es" />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2314093157281078",
+    enable_page_level_ads: true
+  });
+</script>
 
+<link rel="shortcut icon" href="../favicon.ico">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,500,600,700%7Csubset=cyrillic,latin" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<link rel="stylesheet" href="../assets/vendor/dzsparallaxer/dzsparallaxer.css">
+<link rel="stylesheet" href="../assets/vendor/dzsparallaxer/dzsscroller/scroller.css">
+<link rel="stylesheet" href="../assets/vendor/dzsparallaxer/advancedscroller/plugin.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/0.9.1/hamburgers.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/custombox/4.0.1/custombox.min.css">
+
+<link rel="stylesheet" href="../assets/vendor/hs/unify.css">
+
+<link rel="stylesheet" media="screen" href="../assets/poeticous-1b25726e4645f85de69dbdd5216bfe4eaec228df502c422bd6d5d462ac4d438c.css" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30047602-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+mixpanel.init("3c257ced33eb8e4c9c6f4cb3584f397c");</script>
+</head>
+<body>
+<script>
+  //Twitter Share
+  window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+
+  // Facebook SDK
+  window.fbAsyncInit = function() {
+  	FB.init({
+  		appId      : '470213143065140',
+  		xfbml      : true,
+  		version    : 'v2.3'
+  	});
+  };
+
+  (function(d, s, id){
+  	var js, fjs = d.getElementsByTagName(s)[0];
+  	if (d.getElementById(id)) {return;}
+  		js = d.createElement(s); js.id = id;
+  		js.src = "//connect.facebook.net/en_US/sdk.js";
+  		fjs.parentNode.insertBefore(js, fjs);
+  	}(document, 'script', 'facebook-jssdk'));
+  </script>
+<main>
+
+<header id="js-header" class="u-header u-header--static" style="display: none;">
+<div id="dark_light_header" class="u-header__section u-header__section--dark g-bg-transparent g-transition-0_3 g-py-10">
+<nav class="navbar navbar-toggleable">
+<div class="container">
+
+<button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-right-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-target="#navBar">
+<span class="hamburger hamburger--slider">
+<span class="hamburger-box">
+<span class="hamburger-inner"></span>
+</span>
+</span>
+</button>
+
+
+<span id="logo_wrapper"><a class="navbar-brand" href="https://www.poeticous.com/"><img id="logo" class="u-header__logo-img u-header__logo-img--main p-logo-height" alt="Poeticous" src="../assets/logo-w-8c869851a171fb20f86687e2042c8e7933cee5769abe13d25fd003ed56e934b3.png" /></a></span>
+
+
+<div style="visibility: hidden;" class="p-nav-bg-dark js-navigation navbar-collapse align-items-center flex-sm-row u-main-nav--overlay-hidden g-pt-10 g-pt-5--lg" id="navBar" data-navigation-breakpoint="lg" data-navigation-position="left" data-navigation-init-classes="g-transition-0_5" data-navigation-init-body-classes="g-transition-0_5" data-navigation-overlay-classes="g-bg-black-opacity-0_3 g-transition-0_5">
+<div class="u-main-nav__list-wrapper mx-auto">
+<ul class="navbar-nav text-uppercase g-font-weight-600 ml-auto p-font-size-18--xs p-font-size-13--lg">
+<li class="nav-item g-mx-25--lg">
+<a class="nav-link g-px-0 p-menu" href="https://www.poeticous.com/poets">poets</a>
+</li>
+<li class="nav-item g-mx-25--lg">
+<a class="nav-link g-px-0 p-menu" href="https://www.poeticous.com/poems">Poems</a>
+</li>
+<li class="nav-item g-mx-25--lg">
+<a class="nav-link g-px-0 fa fa-random g-mt-5 p-menu" href="https://www.poeticous.com/poems/random?rnd=603799140"></a>
+</li>
+<li class="nav-item g-mx-25--lg">
+<a class="nav-link g-px-0 p-menu" href="https://www.poeticous.com/about">about</a>
+</li>
+<li class="nav-item g-mx-25--lg">
+<a class="nav-link g-px-0 p-menu" href="https://www.poeticous.com/donations/new">Donate</a>
+</li>
+<li class="nav-item g-ml-25--lg g-mr-0--lg">
+<a class="nav-link g-px-0 p-menu" href="https://www.poeticous.com/signin">Login</a>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="search_menu" class="menu_icon d-inline-block g-pos-rel g-valign-middle g-ml-10 g-ml-50--sm p-ml-150--md p-ml-30--lg p-width-20--xxs" style="visibility: hidden;">
+<a href="will-you-come-along-with-me#" id="search-invoker" class="g-font-size-18 g-color-white p-menu menu_icon" aria-haspopup="true" aria-expanded="false" aria-controls="searchform-1" data-dropdown-target="#searchform-1" data-dropdown-type="css-animation" data-dropdown-duration="300" data-dropdown-animation-in="fadeInUp" data-dropdown-animation-out="fadeOutDown">
+<i class="g-font-size-17 fa fa-search"></i>
+</a>
+ 
+<form id="searchform-1" class="u-searchform-v1 u-dropdown--css-animation u-dropdown--hidden g-bg-white g-pa-10 g-mt-30--lg g-mt-20--lg--scrolling g-right-0" action="https://www.poeticous.com/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<div class="input-group g-brd-primary--focus">
+<input type="text" name="q" id="search-box" placeholder="Search poems and poets..." class="form-control rounded-0 u-form-control" />
+<input type="hidden" name="locale" id="locale" value="en" />
+<div class="input-group-addon p-0">
+<button class="btn rounded-0 btn-primary btn-md g-font-size-14 g-px-18" type="submit">Go</button>
+</div>
+</div>
+<div class="g-font-size-11 g-pt-15">
+<label class="form-check-inline u-check g-pl-25">
+<input name="by_pro" class="hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+<div class="u-check-icon-checkbox-v6 g-absolute-centered--y g-left-0">
+<i class="fa" data-check-icon=""></i>
+</div>
+Pro
+</label>
+<label class="form-check-inline u-check g-pl-25 g-mr-15">
+<input name="has_media" class="hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
+<div class="u-check-icon-checkbox-v6 g-absolute-centered--y g-left-0">
+<i class="fa" data-check-icon=""></i>
+</div>
+Media
+</label>
+<label class="form-check-inline u-check g-pl-25 ml-0 g-mr-10">
+<input id="male_rb" class="hidden-xs-up g-pos-abs g-top-0 g-left-0" name="by_gender" type="radio" value="m" previousValue="">
+<div class="u-check-icon-checkbox-v6 g-absolute-centered--y g-left-0">
+<i class="fa" data-check-icon=""></i>
+</div>
+Male
+</label>
+<label class="form-check-inline u-check g-pl-25 ml-0 g-mr-10">
+<input id="female_rb" class="hidden-xs-up g-pos-abs g-top-0 g-left-0" name="by_gender" type="radio" value="f">
+<div class="u-check-icon-checkbox-v6 g-absolute-centered--y g-left-0">
+<i class="fa" data-check-icon=""></i>
+</div>
+Female
+</label>
+</div>
+</form> 
+</div>
+
+
+<div id="lang_menu" class="g-pos-rel g-pt-3--lg g-ml-12 p-ml-20--xs p-ml-30--sm g-ml-15--lg g-ml-20--xl p-width-20--xxs" style="visibility: hidden;">
+<a href="will-you-come-along-with-me#" id="languages-dropdown-invoker" class="g-color-white g-text-underline--none--hover p-menu menu_icon" aria-controls="languages-dropdown" aria-haspopup="true" aria-expanded="false" data-dropdown-event="click" data-dropdown-target="#languages-dropdown" data-dropdown-type="css-animation" data-dropdown-duration="100" data-dropdown-hide-on-scroll="false" data-dropdown-animation-in="fadeIn" data-dropdown-animation-out="fadeOut">
+<span class="g-font-size-15">EN</span>
+</a>
+<ul id="languages-dropdown" class="list-unstyled text-left u-shadow-v23 g-pos-abs g-left-0 g-bg-white g-width-160 g-z-index-2 g-py-20 g-pb-15 g-mt-25--lg g-mt-20--lg--scrolling" aria-labelledby="languages-dropdown-invoker-2">
+<li>
+<a title="Español" class="d-block g-color-main g-color-primary--hover g-text-underline--none--hover g-py-8 g-px-20" href="https://www.poeticous.com/james-clerk-maxwell/will-you-come-along-with-me?locale=es">Español</a><a title="All languages" class="d-block g-color-main g-color-primary--hover g-text-underline--none--hover g-py-8 g-px-20" href="https://www.poeticous.com/james-clerk-maxwell/will-you-come-along-with-me?al=t">All languages</a>
+</li>
+</ul>
+</div>
+
+</div>
+</nav>
+</div>
+</header>
+
+
+<section id="cover" class="p-top-adjust g-bg-cover g-bg-img-hero p-cover-opacity" style="background-image: url(../system/poems/cover_photos/000/013/549/original/spring-tide.jpg?1451111147); top: 0rem;">
+<div id="album-browser" class="g-pos-abs g-font-size-25 g-z-index-9999 text-center" style="left: 50%; top: 50%; transform: translate(-54%, -50%); display: none;">
+<div id="check" class="g-color-white g-cursor-pointer g-font-size-35 g-top-10"><span class="fa fa-check-circle g-opacity-0_7 p-opacity-1--hover"></span></div>
+<div id="prev-next-cover" class="g-color-white g-font-size-35"><span id="previous-cover" class="fa fa-arrow-circle-left g-opacity-0_7 g-pr-35"></span><span id="next-cover" class="fa fa-arrow-circle-right g-opacity-0_7 p-opacity-1--hover g-pl-35 g-cursor-pointer"></span></div>
+<div id="cancel" class="g-color-white g-cursor-pointer g-font-size-35 g-top-10"><span class="fa fa-times-circle g-opacity-0_7 p-opacity-1--hover"></span></div>
+</div>
+<div id="cover-height" class="p-cover-height">
+</div>
+</section>
+
+
+<div class="p-fade-me" style="display: none;"></div>
+<div id="profile-pic-cropper" class="g-pos-abs g-bg-gray-light-v4 g-pa-10 g-z-index-9999 p-profile-cropper" style="margin: auto; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none;">
+<div class="cropit-preview g-bg-black p-profile-cropit-preview"></div>
+<input type="file" class="cropit-image-input" style="display: none;" />
+<input id="profile-pic-zoom" type="range" class="cropit-image-zoom-input g-z-index-9999 g-bg-transparent g-pt-30 g-ml-10 p-ml-30--xs" />
+<button id="profile-pic-save-cover-btn" class="btn p-btn-small u-btn-primary rounded-1 g-mr-5 g-ml-15 p-ml-40--xs" type="button">Save</button>
+<button id="profile-pic-cancel-cover-btn" class="btn p-btn-small u-btn-white rounded-1" type="button">Cancel</button>
+<div id="profile-pic-upload-gif" class="g-z-index-9999 g-width-60 g-pos-abs upload-gif-top" style="left: 50%; top: 50%; transform: translate(-50%, -80%); display: none;"><img src="../assets/uploading-4ed420078e86af8f4da24b8f87d376deee15635db0a2b728822831a11a708366.gif" alt="Uploading" width="60" height="60" /></div>
+</div>
+
+
+
+<div id="loading-beautifier" style="margin-top: 5.714rem"></div>
+
+
+<section id="poet-photo-section" class="container g-pos-rel p-mt-minus-194--xxs p-mt-minus-180--xs p-mt-minus-160--lg g-pt-0">
+<div>
+<div class="row">
+<div class="col-12 cent">
+<figure class="text-center">
+
+<div id="profile-pic" class="mx-auto g-height-150 g-width-150">
+<a class="u-block-hover" title="James Clerk Maxwell" href="https://www.poeticous.com/james-clerk-maxwell"><img class="img-fluid align-self-center mt-0 mr-auto mb-0 ml-auto g-brd-around g-brd-2 g-brd-white rounded-circle u-block-hover__main--zoom-v1 g-width-150 g-height-150" alt="James Clerk Maxwell" src="../system/poets/photos/000/000/227/large/James-Clerk-Maxwell.jpeg?1368746266" /></a>
+</div>
+
+
+<h4 class="h1 g-mb-0 g-mt-3 p-title p-poet-name-context-poem" itemscope itemtype="http://schema.org/Person" itemprop="name">
+<a class="g-z-index-0 g-text-underline--none--hover g-color-gray-dark-v2 g-cursor-pointer" href="https://www.poeticous.com/james-clerk-maxwell">James Clerk Maxwell</a>
+</h4>
+<div class="mx-auto g-font-size-10 text-center">
+</div>
+<div class="mx-auto g-font-size-15 g-pt-10 text-center">
+<div class="g-pos-rel g-mt-minus-20"><span class="g-color-gray-dark-v1 g-font-size-35"><i class="fa fa-bookmark-o"></i><span></div>
+ </div>
+
+</figure>
+</div>
+</div>
+</div>
+</section>
+
+
+<div class="container g-mt-30 g-mb-0">
+
+<div class="row">
+<div class="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 mx-auto text-center g-px-20">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2314093157281078" data-ad-slot="5446125162" data-ad-format="auto"></ins>
+<script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+</div>
+</div>
+
+</div>
+
+
+<div class="container g-mt-30">
+
+<div class="row">
+<div class="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 mx-auto text-center g-px-20">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-2314093157281078" data-ad-slot="3240546766"></ins>
+<script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+</div>
+</div>
+
+</div>
+
+<hr class="w-25 g-my-30 p-my-50--md g-color-black">
+<script src="https://checkout.stripe.com/checkout.js"></script>
+<section id="notification_section" class="g-mb-20">
+<div class="container">
+
+<div class="row">
+<div class="col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11 mx-auto text-center g-px-20">
+</div>
+</div>
+</div>
+</section>
+
+<section class="container g-pt-40 g-pb-0">
+<div class="row justify-content-center g-pos-rel g-top-minus-40">
+<div class="col-xl-10 p-poem-title p-title text-right p-edit g-z-index-3 g-pos-rel g-top-minus-20">&nbsp;
+</div>
+<div id="previous-page" class="col-xl-3 col-lg-3 col-md-1 col-sm-1 col-1 text-left g-flex-centered g-cursor-pointer"><a id="edit-btn" class="p-next-prev g-color-white g-color-black--hover" href="https://www.poeticous.com/james-clerk-maxwell/to-the-chief-musician-upon-nabla-a-tyndallic-ode"><i id="chevron-left" class="fa fa-chevron-left"></i></a></div>
+<div class="col-xl-6 col-lg-6 col-md-10 col-sm-10 col-10 text-center g-pos-rel g-top-minus-20">
+
+<div class="p-poem-title p-title text-center" itemprop="name"><a class="g-color-gray-dark-v2 g-text-underline--none--hover" href="will-you-come-along-with-me">Will You Come Along With Me?</a></div>
+<div class="p-subtitle text-right g-font-style-italic g-pt-20 g-color-gray-dark-v2"><p></p></div>
+<div class="p-poem g-color-gray-dark-v2 g-pt-40" style="display: inline-block; text-align: left;"><div class="verse "><span class="g-color-gray-dark-v2 g-font-weight-600 g-py-8 g-font-size-22">I.</span></div>
+<div class="g-line-height-1"> </div>
+<div class="verse ">Will you come along with me,</div>
+<div class="verse ">In the fresh spring-tide,</div>
+<div class="verse ">My comforter to be</div>
+<div class="verse ">Through the world so wide?</div>
+<div class="verse ">Will you come and learn the ways</div>
+<div class="verse ">A student spends his days,</div>
+<div class="verse ">On the bonny, bonny braes</div>
+<div class="verse ">Of our ain burnside?</div>
+<div class="g-line-height-1"> </div>
+<div class="g-line-height-1"> </div>
+<div class="verse "><span class="g-color-gray-dark-v2 g-font-weight-600 g-py-8 g-font-size-22">II.</span></div>
+<div class="g-line-height-1"> </div>
+<div class="verse ">For the lambs will soon be here,</div>
+<div class="verse ">In the fresh spring-tide;</div>
+<div class="verse ">As lambs come every year</div>
+<div class="verse ">On our ain burnside.</div>
+<div class="verse ">Poor things, they will not stay,</div>
+<div class="verse ">But we will keep the day</div>
+<div class="verse ">When first we saw them play</div>
+<div class="verse ">On our ain burnside.</div>
+<div class="g-line-height-1"> </div>
+<div class="g-line-height-1"> </div>
+<div class="verse "><span class="g-color-gray-dark-v2 g-font-weight-600 g-py-8 g-font-size-22">III.</span></div>
+<div class="g-line-height-1"> </div>
+<div class="verse ">We will watch the budding trees</div>
+<div class="verse ">In the fresh spring-tide,</div>
+<div class="verse ">While the murmurs of the breeze</div>
+<div class="verse ">Through the branches glide.</div>
+<div class="verse ">Where the mavis builds her nest,</div>
+<div class="verse ">And finds both work and rest,</div>
+<div class="verse ">In the bush she loves the best,</div>
+<div class="verse ">On our ain burnside.</div>
+<div class="g-line-height-1"> </div>
+<div class="g-line-height-1"> </div>
+<div class="verse "><span class="g-color-gray-dark-v2 g-font-weight-600 g-py-8 g-font-size-22">IV.</span></div>
+<div class="g-line-height-1"> </div>
+<div class="verse ">And the life we then shall lead</div>
+<div class="verse ">In the fresh spring-tide,</div>
+<div class="verse ">Will make thee mine indeed,</div>
+<div class="verse ">Though the world be wide.</div>
+<div class="verse ">No stranger’s blame or praise</div>
+<div class="verse ">Shall turn us from the ways</div>
+<div class="verse ">That brought us happy days</div>
+<div class="verse ">On our ain burnside.</div></div>
+
+</div>
+<div id="next-page" class="col-xl-3 col-lg-3 col-md-1 col-sm-1 col-1 text-right g-flex-centered g-cursor-pointer"><a id="edit-btn" class="p-next-prev g-color-gray-light-v5kk g-color-white g-color-black--hover" href="https://www.poeticous.com/james-clerk-maxwell/cats-cradle-song-by-a-babe-in-knots"><i id="chevron-right" class="fa fa-chevron-right"></i></a></div>
+</div>
+</section>
+
+<hr class="w-25 g-my-50">
+
+<section class="g-pt-0 g-pb-20">
+<div class="container">
+
+<div class="row">
+<div class="col-10 col-xl-5 mx-auto g-font-size-12">
+<p></p>
+</div>
+</div>
+
+</div>
+</section>
+
+
+<div id="modal_email" class="text-left p-min-width-330 g-bg-black g-color-white g-font-size-16 g-px-10 text-center g-pos-abs" style="display: none;">
+<div class="g-py-14 g-brd-bottom g-brd-gray-dark-v2">
+<form action="https://www.poeticous.com/poems/will-you-come-along-with-me/email" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="gEYgQwo+mbSRZgJjVZtTFt1y3XU8RCzzLEe1q3KcsiXCJaofmAY68+srtrZl8wsZ6iPKnfSy0eB+Rb7uzgRzIg==" />
+<input type="text" name="from" id="email_from" value="" placeholder="From: (Your name)" class="form-control rounded-0 u-form-control g-font-size-17" />
+<input type="text" name="email" id="email" value="" placeholder="To: (Email)" class="form-control rounded-0 u-form-control g-mt-10 g-font-size-17" />
+<button class="btn rounded-0 btn-primary btn-md g-font-size-14 g-px-18 g-mt-10" type="submit"><span class="fa fa-send g-mr-10"></span>Send</button>
+</form> </div>
+</div>
+
+
+<div id="modal" class="text-left g-min-width-300 g-bg-black g-color-white g-pt-20 g-pb-0 text-uppercase g-font-size-16" style="display: none;">
+<h4 class="g-mb-20 text-center g-font-size-15">Share</h4>
+<div id="email_modal_trigger" class="g-py-14 g-pl-20 g-brd-top g-brd-gray-dark-v2 g-bg-primary--hover g-cursor-pointer">
+<a class="g-color-white g-text-underline--none--hover" data-modal-target="#modal_email" data-modal-effect="fadein" href="will-you-come-along-with-me#"><i class="fa fa-envelope-o g-mr-12"></i>Email</a>
+</div>
+<div class="g-py-14 g-pl-20 g-brd-top g-brd-gray-dark-v2 g-bg-primary--hover g-cursor-pointer">
+<a id="facebook-share" data-url="https://www.poeticous.com/james-clerk-maxwell/will-you-come-along-with-me" onclick="javascript: FB.ui({method: 'share', href: $(this).attr('data-url')}, function(response){});" class="" style="display: block;">
+<i class="fa fa-facebook g-mr-20"></i>Facebook
+</a>
+</div>
+<div class="g-py-14 g-pl-20 g-brd-top g-brd-gray-dark-v2 g-bg-primary--hover g-cursor-pointer">
+<a href="https://twitter.com/intent/tweet?original_referer=https://www.poeticous.com&amp;text=Will You Come Along With Me?, by James Clerk Maxwell&amp;url=https://www.poeticous.com/james-clerk-maxwell/will-you-come-along-with-me&amp;via=Poeticous" data-message="Share on Twitter" data-service="twitter" target="_blank" class="g-color-white g-text-underline--none--hover" style="display: block;">
+<i class="fa fa-twitter g-mr-15"></i>Twitter
+</a>
+</div>
+<div class="g-py-14 g-pl-20 g-brd-top g-brd-gray-dark-v2 g-bg-primary--hover g-cursor-pointer">
+<a href="https://plus.google.com/share?url=https://www.poeticous.com/james-clerk-maxwell/will-you-come-along-with-me" onclick="javascript:window.open(this.href, '', 'width=600, height=600'); return false;" class="g-color-white g-text-underline--none--hover" style="display: block;">
+<i class="fa fa-google-plus g-mr-12"></i>Google
+</a>
+</div>
+</div>
+
+
+<div id="modal_likers" class="text-left p-min-width-330 g-bg-black g-color-white g-font-size-16" style="display: none;">
+</div>
+
+
+<div id="modal_favers" class="text-left p-min-width-330 g-bg-black g-color-white g-font-size-16" style="display: none;">
+</div>
+
+
+<section id="fav_like_share" class="g-pt-80">
+<div class="container">
+
+<div class="row">
+<div class="col-12 mx-auto">
+<ul class="u-list-inline text-center">
+<li class="list-inline-item g-mr-1 g-ml-20 g-pr-15">
+<a class="g-color-gray-light-v3 g-font-size-40 g-color-primary--hover" href="https://www.poeticous.com/signin"><i class="fa fa-star-o"></i></a>
+<div id="favs-count" class="g-color-gray-dark-v5">
+0
+</div>
+</li>
+<li class="list-inline-item g-mr-1 g-ml-20 g-pr-15">
+<a class="g-color-gray-light-v3 g-font-size-40 g-color-primary--hover" href="https://www.poeticous.com/signin"><i class="fa fa-heart-o"></i></a>
+<div id="likes-count" class="g-color-gray-dark-v5">
+0
+</div>
+</li>
+<li class="list-inline-item g-ml-20">
+<a id="share-btn" class="g-color-gray-light-v3 g-font-size-40 g-color-primary--hover" data-modal-target="#modal" data-modal-effect="fadein" href="will-you-come-along-with-me#"><i class="fa fa-share-square-o"></i></a>
+<div>&nbsp;</div>
+</li>
+<li class="list-inline-item g-ml-20">
+<form id="poem_boost_form" action="https://www.poeticous.com/poems/will-you-come-along-with-me/boost" method="POST">
+<input id="boost_amount" type="hidden" value="5" name="boost_amount">
+<a id="boost_button" class="g-color-gray-light-v3 g-font-size-40 g-color-primary--hover" data-toggle="tooltip" data-placement="top" data-original-title="Poem Boost: The poem will appear in the featured section for a whole week." href="will-you-come-along-with-me#"><i class="fa fa-lightbulb-o"></i></a>
+</form>
+<div>&nbsp;</div>
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+</section>
+
+
+<section class="g-mt-100 g-mb-60">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-xl-9 col-lg-10 col-md-11 col-sm-11 col-12">
+<div class="g-mb-40 g-font-size-16"><a class="g-text-underline--none--hover g-color-primary g-font-weight-600" href="https://www.poeticous.com/signin">Login</a> to comment...</div>
+</div>
+</div>
+</div>
+</section>
+
+<a id="email_link" style="visibility: none; font-size: 6px;" class="g-color-white g-text-underline--none--hover" data-modal-target="#modal_email" data-modal-effect="fadein" href="will-you-come-along-with-me#"><i class="fa fa-envelope-o g-mr-12"></i>Email</a>
+
+<div class="container g-mt-30 g-mb-0">
+
+<div class="row">
+<div class="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 mx-auto text-center g-px-20">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2314093157281078" data-ad-slot="5446125162" data-ad-format="auto"></ins>
+<script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+</div>
+</div>
+
+</div>
+
+
+<section class="container g-mt-40 g-mb-100">
+<div class="g-mb-25">
+<h2 class="g-font-size-16 g-color-gray-dark-v2">Other works by James Clerk Maxwell...</h2>
+</div>
+<div class="row">
+<div class="masonry-grid-item col-sm-6 col-lg-4 g-mb-30">
+
+<article class="u-shadow-v11">
+<div class="w-100 p-height-109 g-bg-cover g-bg-white">&nbsp;</div>
+<div class="g-bg-white g-pb-30 g-pl-30 g-pr-30">
+
+<div class="mx-auto g-width-80 g-pos-rel g-mt-minus-40 g-pb-20">
+<a class="u-block-hover" title="James Clerk Maxwell" href="https://www.poeticous.com/james-clerk-maxwell"><img class="img-fluid align-self-center mt-0 mr-auto mb-0 ml-auto g-brd-around g-brd-2 g-brd-white rounded-circle u-block-hover__main--zoom-v1 g-width-80 g-height-80" alt="James Clerk Maxwell" src="../system/poets/photos/000/000/227/thumb/James-Clerk-Maxwell.jpeg?1368746266" /></a>
+</div>
+
+<h2 class="h5 g-color-black g-font-weight-600 mb-1 mx-auto text-center    ">
+<a class="u-link-v5 g-color-gray-dark-v3 g-color-black--hover g-cursor-pointer" href="https://www.poeticous.com/james-clerk-maxwell/song-of-the-cub">Song of the Cub</a>
+</h2>
+<div class="text-center mb-4">by <a class="u-link-v5 g-color-gray-dark-v3 g-color-black--hover g-cursor-pointer" href="https://www.poeticous.com/james-clerk-maxwell">James Clerk Maxwell</a></div>
+<div class="g-color-gray-dark-v4 g-line-height-1_8 g-pl-20">
+<a class="u-link-v5 g-color-gray-dark-v4 g-cursor-pointer" href="https://www.poeticous.com/james-clerk-maxwell/song-of-the-cub" title="Margaret Atwood"><p>I know not what this may betoken,
+<br />That I feel so wondrous wise;
+<br />My dream of existence is broken
+<br />Since science has opened my eyes.
+<br />At the British Association</p></a>
+</div>
+<a href="https://www.poeticous.com/james-clerk-maxwell/song-of-the-cub" class="g-color-gray-light-v3 g-font-size-13 fa fa-chevron-downkk w-100 text-center g-pr-20 u-link-v5 g-cursor-pointer"></a>
+</div>
+</article>
+
+</div>
+<div class="masonry-grid-item col-sm-6 col-lg-4 g-mb-30">
+
+<article class="u-shadow-v11">
+<div class="w-100 p-height-109 g-bg-cover g-bg-white">&nbsp;</div>
+<div class="g-bg-white g-pb-30 g-pl-30 g-pr-30">
+
+<div class="mx-auto g-width-80 g-pos-rel g-mt-minus-40 g-pb-20">
+<a class="u-block-hover" title="James Clerk Maxwell" href="https://www.poeticous.com/james-clerk-maxwell"><img class="img-fluid align-self-center mt-0 mr-auto mb-0 ml-auto g-brd-around g-brd-2 g-brd-white rounded-circle u-block-hover__main--zoom-v1 g-width-80 g-height-80" alt="James Clerk Maxwell" src="../system/poets/photos/000/000/227/thumb/James-Clerk-Maxwell.jpeg?1368746266" /></a>
+</div>
+
+<h2 class="h5 g-color-black g-font-weight-600 mb-1 mx-auto text-center    ">
+<a class="u-link-v5 g-color-gray-dark-v3 g-color-black--hover g-cursor-pointer" href="https://www.poeticous.com/james-clerk-maxwell/ninth-ode-of-the-third-book-of-horace">Ninth Ode of the Third Book of Horace</a>
+</h2>
+<div class="text-center mb-4">by <a class="u-link-v5 g-color-gray-dark-v3 g-color-black--hover g-cursor-pointer" href="https://www.poeticous.com/james-clerk-maxwell">James Clerk Maxwell</a></div>
+<div class="g-color-gray-dark-v4 g-line-height-1_8 g-pl-20">
+<a class="u-link-v5 g-color-gray-dark-v4 g-cursor-pointer" href="https://www.poeticous.com/james-clerk-maxwell/ninth-ode-of-the-third-book-of-horace" title="Margaret Atwood"><p>Horace.
+<br />While I was your beloved one,
+<br />And while no other youth threw his
+<br />Your white neck so easily,
+<br />Than the King of the world I was</p></a>
+</div>
+<a href="https://www.poeticous.com/james-clerk-maxwell/ninth-ode-of-the-third-book-of-horace" class="g-color-gray-light-v3 g-font-size-13 fa fa-chevron-downkk w-100 text-center g-pr-20 u-link-v5 g-cursor-pointer"></a>
+</div>
+</article>
+
+</div>
+<div class="masonry-grid-item col-sm-6 col-lg-4 g-mb-30">
+
+<article class="u-shadow-v11">
+<div class="w-100 p-height-109 g-bg-cover g-bg-white">&nbsp;</div>
+<div class="g-bg-white g-pb-30 g-pl-30 g-pr-30">
+
+<div class="mx-auto g-width-80 g-pos-rel g-mt-minus-40 g-pb-20">
+<a class="u-block-hover" title="James Clerk Maxwell" href="https://www.poeticous.com/james-clerk-maxwell"><img class="img-fluid align-self-center mt-0 mr-auto mb-0 ml-auto g-brd-around g-brd-2 g-brd-white rounded-circle u-block-hover__main--zoom-v1 g-width-80 g-height-80" alt="James Clerk Maxwell" src="../system/poets/photos/000/000/227/thumb/James-Clerk-Maxwell.jpeg?1368746266" /></a>
+</div>
+
+<h2 class="h5 g-color-black g-font-weight-600 mb-1 mx-auto text-center    ">
+<a class="u-link-v5 g-color-gray-dark-v3 g-color-black--hover g-cursor-pointer" href="https://www.poeticous.com/james-clerk-maxwell/numa-pompilius">Numa Pompilius</a>
+</h2>
+<div class="text-center mb-4">by <a class="u-link-v5 g-color-gray-dark-v3 g-color-black--hover g-cursor-pointer" href="https://www.poeticous.com/james-clerk-maxwell">James Clerk Maxwell</a></div>
+<div class="g-color-gray-dark-v4 g-line-height-1_8 g-pl-20">
+<a class="u-link-v5 g-color-gray-dark-v4 g-cursor-pointer" href="https://www.poeticous.com/james-clerk-maxwell/numa-pompilius" title="Margaret Atwood"><p>O well is thee! King Numa,
+<br />Within thy secret cave,
+<br />Where thy bones are ever moistened
+<br />By sad Egeria’s wave;
+<br />None now have power to pilfer</p></a>
+</div>
+<a href="https://www.poeticous.com/james-clerk-maxwell/numa-pompilius" class="g-color-gray-light-v3 g-font-size-13 fa fa-chevron-downkk w-100 text-center g-pr-20 u-link-v5 g-cursor-pointer"></a>
+</div>
+</article>
+
+</div>
+</div>
+</section>
+
+
+<section class="container g-mt-50 g-mb-60">
+<div class="p-brd-around g-brd-darkred g-pa-30 col-11 mx-auto">
+<div class="text-center g-width-100x">
+<h1 class='g-font-weight-700 g-font-size-42 p-title'>We need your help</h1>
+<div class="d-inline-block g-width-75 g-height-2 g-bg-gray-light-v2"></div>
+</div>
+<p class="p-prose g-mt-20">Unlike many other websites, we haven’t put up a paywall – we want to keep access to poetry as open as we can. Growing and maintaining Poeticous takes a lot of time, money and hard work, and the revenue we get from advertising is almost nothing, so we increasingly need our readers to fund us. If everyone who reads our pages, who likes it, helps fund it, our future would be much more secure. Support Poetiocus from as little as $1.</p>
+<div style="text-align:center">
+<form id="donation_form" action="https://www.poeticous.com/donations" method="POST">
+<div id="error_explanation" class="g-max-width-300 mx-auto g-mt-40">&nbsp;</div>
+<div class="g-max-width-200 mx-auto g-mt-5" style="display: flex;">
+<div class="input-group g-brd-primary--focus g-width-80 g-height-40 g-mr-2">
+<div class="input-group-addon d-flex align-items-center g-bg-white g-color-gray-light-v1 rounded-0">
+<i class="fa fa-dollar"></i>
+</div>
+<input id="amount" class="form-control form-control-md border-left-0 rounded-0 pl-0 g-mr-2" type="text" placeholder="5" value="5" name="amount">
+</div>
+<div><a id="donate-button" href="will-you-come-along-with-me#" class="btn btn-md u-btn-primary rounded-0 g-height-40">Donate</a></div>
+</div>
+<div class="plan-wrapper">
+<div class="g-mb-15 g-mt-20">
+<label class="form-check-inline u-check g-pl-25 ml-0 g-mr-25">
+<input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" name="plan" type="radio" checked="" value="one_time">
+<div class="u-check-icon-radio-v4 g-absolute-centered--y g-left-0 g-width-18 g-height-18">
+<i class="g-absolute-centered d-block g-width-10 g-height-10 g-bg-primary--checked"></i>
+</div>
+One Time
+</label>
+<label class="form-check-inline u-check g-pl-25 ml-0 g-mr-25">
+<input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" name="plan" type="radio" value="monthly" checked="">
+<div class="u-check-icon-radio-v4 g-absolute-centered--y g-left-0 g-width-18 g-height-18">
+<i class="g-absolute-centered d-block g-width-10 g-height-10 g-bg-primary--checked"></i>
+</div>
+Monthly
+</label>
+<label class="form-check-inline u-check g-pl-25 ml-0 g-mr-25">
+<input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" name="plan" type="radio" value="annually">
+<div class="u-check-icon-radio-v4 g-absolute-centered--y g-left-0 g-width-18 g-height-18">
+<i class="g-absolute-centered d-block g-width-10 g-height-10 g-bg-primary--checked"></i>
+</div>
+Annually
+</label>
+</div>
+</div>
+</form>
+</div>
+</div>
+</section>
+
+
+<footer class="g-bg-gray-dark-v2 g-color-white-opacity-0_7 g-py-50 g-mt-100">
+<div class="container">
+<div class="row">
+<div class="col-md-8 text-center text-md-left g-mb-10 g-mb-0--md">
+<div class="d-lg-flex">
+<small class="d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">2017 © Poeticous. All Rights Reserved.</small>
+<ul class="u-list-inline">
+<li class="list-inline-item">
+<a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="https://www.poeticous.com/privacy">privacy</a>
+</li>
+<li class="list-inline-item">
+<span>|</span>
+</li>
+<li class="list-inline-item">
+<a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="https://www.poeticous.com/terms">terms</a>
+</li>
+<li class="list-inline-item">
+<span>|</span>
+</li>
+<li class="list-inline-item">
+<a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="https://www.poeticous.com/contact">contact</a>
+</li>
+<li class="list-inline-item">
+<span>|</span>
+</li>
+<li class="list-inline-item">
+<a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="https://www.poeticous.com/help">help</a>
+</li>
+<li class="list-inline-item">
+<span>|</span>
+</li>
+<li class="list-inline-item">
+<a class="g-color-white-opacity-0_7 g-color-white--hover g-text-underline--none--hover" href="https://www.poeticous.com/">home</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-md-4 align-self-center">
+<ul class="list-inline text-center text-md-right mb-0">
+<li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Facebook">
+<a href=https://www.facebook.com/poeticous class="g-color-white-opacity-0_5 g-color-white--hover" target="_blank">
+<i class="fa fa-facebook"></i>
+</a>
+</li>
+<li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="Twitter">
+<a href="https://www.twitter.com/poeticous" class="g-color-white-opacity-0_5 g-color-white--hover" target="_blank">
+<i class="fa fa-twitter"></i>
+</a>
+</li>
+</ul>
+</div>
+<div class="col-md-10 align-self-center">
+<small class="d-block g-font-size-12 g-mr-10 g-mb-15 g-mb-0--md g-mt-20--md g-color-gray-dark-v5">Bringing you Poeticous takes hundreds of hours each month. If it brings you any joy, please consider supporting with a small <a href="https://www.poeticous.com/donations/new">donation</a>.</small>
+</div>
+
+</div>
+</div>
+</footer>
+
+</main>
+<script src="../assets/application-2263f02c0443d80892f50c81742418e2e1695acc4177423335901fd680684359.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.1.0/js/tether.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+
+<script src="../assets/vendor/hs/hs.core.js"></script>
+<script src="../assets/vendor/hs/components/hs.header.js"></script>
+<script src="../assets/vendor/hs/helpers/hs.hamburgers.js"></script>
+<script src="../assets/vendor/hs/components/hs.navigation.js"></script>
+<script src="../assets/vendor/hs/components/hs.dropdown.js"></script>
+
+<script src="../assets/vendor/custombox/custombox.min.js"></script>
+
+<script src="../assets/vendor/hs/components/hs.popup.js"></script>
+<script src="../assets/vendor/hs/components/hs.modal-window.js"></script>
+
+<script src="../assets/vendor/autosize.min.js"></script>
+<script src="../assets/vendor/hs/helpers/hs.focus-state.js"></script>
+<script>
+  $(document).on('ready', function () {
+    $.HSCore.helpers.HSFocusState.init();
+  });
+</script>
+<script>
+;(function($) {
+  "use strict";
+
+  function collapseAll() {
+    var invokers = ["search-invoker", "user-dropdown-invoker", "languages-dropdown-invoker"];
+
+    for (var i = 0; i < 3; i++) {
+        if ($("#"+invokers[i]).attr("aria-expanded") == "true") {
+            $("#"+invokers[i]).click();
+        }
+    }
+  }
+
+
+  $("#male_rb, #female_rb").click(function() {
+
+    if ($(this).attr('id') == "male_rb") {
+      $("#female_rb").attr('previousValue', false);
+    } else {
+      $("#male_rb").attr('previousValue', false);
+    }
+
+    if ($(this).attr('previousValue') == 'checked')
+    {
+      // $(this).removeAttr('checked');
+      $(this).prop("checked", false);
+      $(this).attr('previousValue', false);
+    } else {
+      $(this).attr('previousValue', false);
+      $(this).attr('previousValue', 'checked');
+    }
+  });
+
+  // hide change cover menu when clicking outside
+  $("#cover").click(function() {
+      
+      collapseAll();
+  });
+
+  function dropdowns_update(current) {
+      var invokers = ["search-invoker", "user-dropdown-invoker", "languages-dropdown-invoker"];
+
+      for (var i = 0; i < 3; i++) {
+          if (invokers[i] == current) {
+            continue;
+          }
+
+          if ($("#"+invokers[i]).attr("aria-expanded") == "true") {
+              $("#"+invokers[i]).click();
+          }
+      }
+  }
+
+  $(document).ready(function() {
+
+    $.HSCore.components.HSHeader.init($("#js-header"));
+
+    // Initialization of HSHamburgers helper
+    $.HSCore.helpers.HSHamburgers.init(".hamburger");
+
+    // Initialization of HSDropdown component
+    $.HSCore.components.HSDropdown.init( $("[data-dropdown-target]"), {
+      afterOpen: function(){
+        $(this).find('input[type="search"]').focus();
+      }
+    });
+
+    // Initialization of HSNavigation component
+    $.HSCore.components.HSNavigation.init( $(".js-navigation") );
+
+    $('[data-toggle="tooltip"]').tooltip();
+
+    // $(".fa-search").click(function() {
+    $("#search-invoker").click(function() {
+        dropdowns_update("search-invoker");
+        setTimeout(function() { $("#search-box").focus(); }, 300);
+    });
+
+    $("#user-dropdown-invoker").click(function() {
+        dropdowns_update("user-dropdown-invoker");
+    });
+
+    $("#languages-dropdown-invoker").click(function() {
+        dropdowns_update("languages-dropdown-invoker");
+    });
+
+    // To eliminate showing dropdown boxes while page is loading
+    $("#js-header").show();
+    $("#navBar, #search_menu, #lang_menu, #user_menu, #camera").css("visibility", "visible");
+    $("#cover").css("top", "");
+    $("#loading-beautifier").hide();
+  });
+})(jQuery);
+</script>
+<script>
+;(function($) {
+  'use strict';
+  $(document).ready(function() {
+    // Init popups
+    $.HSCore.components.HSPopup.init('.js-fancybox');
+  });
+})(jQuery);
+</script>
+<script>
+  $(document).on('ready', function () {
+    // initialization of popups
+    $.HSCore.components.HSModalWindow.init('[data-modal-target]');
+  });
+</script>
+<script>
+$(document).on("ready", function () {
+
+  $('body').on('click','#email_modal_trigger',function(){
+    Custombox.modal.close();
+    $('#email_link').click();
+    return false;
+  });
+
+  $('#next-page').hover(
+      function() {
+          $('#next-page').addClass( "g-bg-gray-light-v5" ).removeClass( "g-bg-white" );
+          $('#chevron-right').addClass( "g-color-gray-light-v2" ).removeClass( "g-color-white" );
+      }, function() {
+          $('#next-page').addClass( "g-bg-white" ).removeClass( "g-bg-gray-light-v5" );
+          $('#chevron-right').addClass( "g-color-white" ).removeClass( "g-color-gray-light-v2" );
+      }
+  );
+  $("#next-page").click(function() {
+    $("#next-page").unbind( "click" );
+    $("#chevron-right").click();
+  });
+
+  $('#previous-page').hover(
+      function() {
+          $('#previous-page').addClass( "g-bg-gray-light-v5" ).removeClass( "g-bg-white" );
+          $('#chevron-left').addClass( "g-color-gray-light-v2" ).removeClass( "g-color-white" );
+      }, function() {
+          $('#previous-page').addClass( "g-bg-white" ).removeClass( "g-bg-gray-light-v5" );
+          $('#chevron-left').addClass( "g-color-white" ).removeClass( "g-color-gray-light-v2" );
+      }
+  );
+  $("#previous-page").click(function() {
+    $("#previous-page").unbind( "click" );
+    $("#chevron-left").click();
+  });
+
+  var likes_count = 0
+  $("#like-poem").click(function() {
+      $("#unlike-poem").show();
+      $("#like-poem").hide();
+      likes_count += 1
+      $("#likes-count").text(likes_count);
+  });
+  $("#unlike-poem").click(function() {
+      $("#unlike-poem").hide();
+      $("#like-poem").show();
+      $("#like-poem").removeClass("g-color-primary--hover")
+      likes_count -= 1
+      $("#likes-count").text(likes_count);
+  });
+
+  var favs_count = 0
+  $("#fav-poem").click(function() {
+      $("#unfav-poem").show();
+      $("#fav-poem").hide();
+      favs_count += 1
+      $("#favs-count").text(favs_count);
+  });
+  $("#unfav-poem").click(function() {
+      $("#unfav-poem").hide();
+      $("#fav-poem").show();
+      $("#fav-poem").removeClass("g-color-primary--hover")
+      favs_count -= 1
+      $("#favs-count").text(favs_count);
+  });
+});
+</script>
+<script>
+    autosize($("textarea")); //comments
+</script>
+<script>
+  $(document).on("ready", function () {
+      $("#post_msg").click(function () {
+          $("#cover-height").removeClass("p-coverless-height").addClass("p-cover-height", 1000);
+
+          $("#msg_compose").show();
+          $("html, body").animate({
+              scrollTop: 0 // $("#poet-bio-section").offset().top
+          }, 600, function () {
+              $("#msg_box").focus(); // Animation complete
+          });
+
+          return false;
+      });
+
+      $("#close_btn").click(function () {
+          $("#msg_compose").hide("slow");
+
+          return false;
+      });
+
+      $("#msg_box").keyup(function (e) {
+          if (e.keyCode == 91) {
+            return
+          }
+
+          var max = 233;
+          var len = $(this).val().length;
+          if (len >= max) {
+              $("#msg_count").text("0"); //you have reached the limit
+          } else {
+              var char = max - len;
+              $("#msg_count").text(char + ' chars remaining');
+          }
+      });
+
+      $("#msg_submit").click(function () {
+          $.ajax({
+              url: $("#msg_form").attr("action"),
+              type: $("#msg_form").attr("method"),
+              data: $("#msg_form").serialize(),
+              success: function(result) {
+                  // ... Process the result ...
+              }
+          });
+      });
+
+      $("#msg_box").keydown(function(e) {
+        	if(e.keyCode == 13 && e.metaKey) {
+        		  $("#msg_submit").click();
+        	}
+      });
+  });
+</script>
+<script>
+$(function(){
+  var handler = StripeCheckout.configure({
+      key: 'pk_live_qTj8WZ35KJnvivb9QVGHsbuv',
+      // key: 'pk_test_S7FXYcZvbNrc4b23O0VQy3nA',
+      image: '/assets/rosetti_small-f6ea961cf0e3f3960ff27c9dd043e73c30f5343055e185928a9290b2874e8805.jpg',
+      panelLabel: "Donate {{amount}}",
+      allowRememberMe: false,
+      token: function(token, args) {
+          // Use the token to create the charge with a server-side script.
+          $('#donation_form').append("<input type='hidden' name='stripe_token' value='"+ token.id +"' />")
+          .append("<input type='hidden' name='amount' value='" + parseFloat($('#amount').val()) * 100 + "' />")
+          .submit();
+      }
+  });
+
+  $("#donate-button, #donate-button2").click(function(e) {
+      e.preventDefault();
+
+      $("#error_explanation").html("");
+
+      var amount = $("input#amount").val();
+      amount = amount.replace(/\$/g, "").replace(/\,/g, '')
+
+      amount = parseFloat(amount);
+
+      if (isNaN(amount)) {
+        $("#error_explanation").html("Please, enter a valid amount in USD ($)");
+      }
+      else if (amount < 1.00) {
+        $("#error_explanation").html("Please, at least $1");
+      }
+      else {
+        amount = amount * 100; // Needs to be an integer!
+        handler.open({
+          name: "Poeticous",
+          description: "Thanks for supporting us!",
+          amount: Math.round(amount)
+        })
+      }
+  });
+});
+</script>
+<script>
+$(function(){
+  var boost_handler = StripeCheckout.configure({
+      key: 'pk_live_qTj8WZ35KJnvivb9QVGHsbuv',
+      // key: 'pk_test_S7FXYcZvbNrc4b23O0VQy3nA',
+      image: '/assets/rosetti_small-f6ea961cf0e3f3960ff27c9dd043e73c30f5343055e185928a9290b2874e8805.jpg',
+      panelLabel: "{{amount}} boost",
+      allowRememberMe: false,
+      token: function(token, args) {
+          // Use the token to create the charge with a server-side script.
+          $('#poem_boost_form').append("<input type='hidden' name='stripe_token' value='"+ token.id +"' />")
+          .append("<input type='hidden' name='boost_amount' value='" + parseFloat($('#boost_amount').val()) * 100 + "' />")
+          .submit();
+      }
+  });
+
+  $("#boost_button").click(function(e) {
+      e.preventDefault();
+
+      var amount = $("input#boost_amount").val();
+      amount = amount.replace(/\$/g, "").replace(/\,/g, '')
+      amount = parseFloat(amount);
+      amount = amount * 100; // Needs to be an integer!
+      boost_handler.open({
+        name: "Poeticous",
+        description: "Boosting \"Will You Come Along With Me?\"",
+        amount: Math.round(amount)
+      })
+  });
+});
+</script>
+
+<script type="text/javascript">
+  var _qevents = _qevents || [];
+
+  (function() {
+  var elem = document.createElement('script');
+  elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+  elem.async = true;
+  elem.type = "text/javascript";
+  var scpt = document.getElementsByTagName('script')[0];
+  scpt.parentNode.insertBefore(elem, scpt);
+  })();
+
+  _qevents.push({
+  qacct:"p-29Jr2sX962KbM"
+  });
+
+  </script>
+<noscript>
+  <div style="display:none;position:absolute">
+  <img src="https://pixel.quantserve.com/pixel/p-29Jr2sX962KbM.gif" border="0" height="1" width="1" alt="Quantcast"/>
+  </div>
+  </noscript>
+
+<script src="https://z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&amp;adInstanceId=9a2143b7-06af-4b46-882d-7f289afda383"></script>
+</body>
+</html>
